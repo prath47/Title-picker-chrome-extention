@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20%;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    background: #1586c8;
+    margin: auto;
+    padding: 10px;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.btn:hover {
+    background: #126a9e;
+    transition: all ease-in;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Title Picker",
+    "description": "This Extention will show the title of the current Tab",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
